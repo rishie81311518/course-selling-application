@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <h1>
-        We are building ecommerce app
+ it is working
         </h1>
     </div>
   );
