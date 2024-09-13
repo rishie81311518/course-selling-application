@@ -1,8 +1,8 @@
-import { NextRequest } from "next/dist/server/web/spec-extension/request";
+import { NextRequest } from "next/server";
 import db from "@/db/db"
 import fs from "fs/promises"
 import { notFound } from "next/navigation";
-import { NextResponse } from "next/dist/server/web/spec-extension/response";
+import { NextResponse } from "next/server";
 
 export async function GET(
     req: NextRequest, {params: {id}} : { params: {id: string}}
